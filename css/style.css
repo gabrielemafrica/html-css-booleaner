@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -101,3 +102,30 @@ tr.riga-chiara{
     background-color: white;
 }
 
+/* footer */
+
+footer{
+    margin-top: 30px;
+    color: grey;
+    font-size: 18px;
+}
+
+.foto-footer{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.prima-foto{
+    background-image: url(../img/monitor.jpg);
+
+}
+
+.seconda-foto{
+    background-image: url(../img/graph.jpg);
+}
