@@ -1,7 +1,12 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
 }
+
+
+
+/* regole header */
 
 header{
     background-color: skyblue;
@@ -14,5 +19,40 @@ header{
 #logo-header{
     width: 20%;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
+
+/* regole main */
+
+main{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+/* sezione titolo */
+
+main section h1{
+    font-size: 44px;
+}
+
+main section .under-title{
+    font-size: 22px;
+    color: gray;
+}
+
+main section .under-title .lightblue{
+    color: skyblue;
+}
+
+main section .little{
+    font-size: 16px;
+}
+
+main section .immagini{
+    margin-top: 30px;
+}
+
+main .immagini img{
+    height: 400px;
+}
+
