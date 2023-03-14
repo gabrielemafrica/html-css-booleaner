@@ -1,0 +1,135 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* regole header */
+
+header{
+    background-color: skyblue;
+    background-image: url(../img/pattern.png);
+    background-size: 40%;
+    background-repeat: repeat-x;
+    height: 15vh;
+    width: 100vw;
+    padding: 0 150px;
+}
+
+#logo-header{
+    width: 20%;
+    margin-top: 50px;
+    
+}
+
+/* regole main */
+
+main{
+    
+    padding-top: 30px;
+    padding: 0 150px;
+}
+
+/* sezione titolo */
+
+main section h1{
+    font-size: 3vw;
+    margin-top: 15px;
+}
+
+main section .under-title{
+    font-size: 22px;
+    color: gray;
+}
+
+main section .under-title .lightblue{
+    color: skyblue;
+}
+
+main section .little{
+    font-size: 16px;
+}
+
+main section .immagini{
+    margin-top: 30px;
+}
+
+main .immagini img{
+    height: 35vh;
+}
+
+/* sezione paragrafo */
+
+main .text{
+    font-size: 20px;
+}
+
+.text .paragrafo{
+    margin-top: 30px;
+}
+
+.text .paragrafo .bg-yellow{
+    background-color: yellow;
+}
+
+ul{
+    padding: 15px;
+}
+
+/* table */
+
+table{
+    border-collapse: collapse;
+}
+
+td.celle-strette{
+    width: 25%;
+}
+
+td.celle-larghe{
+    width: 50%;
+}
+
+tr.riga-testa{
+    background-color: rgb(0, 173, 227);
+    color: white;
+}
+
+tr.riga-scura{
+    background-color: rgb(169, 231, 242);
+}
+
+tr.riga-chiara{
+    background-color: white;
+}
+
+/* footer */
+
+footer{
+    margin-top: 30px;
+    color: grey;
+    font-size: 18px;
+}
+
+.foto-footer{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.prima-foto{
+    background-image: url(../img/monitor.jpg);
+
+}
+
+.seconda-foto{
+    background-image: url(../img/graph.jpg);
+}
